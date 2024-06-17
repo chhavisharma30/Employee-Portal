@@ -1,0 +1,21 @@
+uuid: 1db9aa8f-2ab0-4a48-bae9-aa64c598e967
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: local
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/local
+module:
+  devel: 0
+  views_ui: 0
+  webform: 0
+  webform_ui: 0
+theme: {  }
+complete_list:
+  - system.site
+partial_list: {  }
