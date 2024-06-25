@@ -1,0 +1,19 @@
+uuid: db738761-b696-4ab6-b780-e58567454518
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee
+  module:
+    - user
+id: node.employee.default
+targetEntityType: node
+bundle: employee
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
