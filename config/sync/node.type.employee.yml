@@ -1,0 +1,18 @@
+uuid: 075d921b-b634-4b43-8694-8c34a4c70db2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Employee
+type: employee
+description: 'Employee data type.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
